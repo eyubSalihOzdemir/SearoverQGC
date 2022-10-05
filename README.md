@@ -24,4 +24,15 @@ Key Links:
 
 # What's been done?
 * Fixed all the errors and incompatibilities for Stable_V4.2 version.
-* Ready to import and run.
+* Ready to import and run with QTCreator 5.15 and Visual Studio 2019.
+
+# How to run?
+- Import Stable_V4.2 branch
+```bash
+  git clone -b Stable_V4.2 https://github.com/eyubSalihOzdemir/SearoverQGC.git
+```
+
+- Get and update submodules
+```bash
+  git submodule update --init --recursive
+```
